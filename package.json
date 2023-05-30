@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/miltonisaya/shopit-api/issues"
   },
-  "homepage": "https://github.com/miltonisaya/shopit-api#readme"
+  "homepage": "https://github.com/miltonisaya/shopit-api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.1"
+  }
 }
