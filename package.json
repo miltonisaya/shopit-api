@@ -2,9 +2,11 @@
   "name": "shopit-backend",
   "version": "1.0.0",
   "description": "NodeJs backend for an e-commerce application",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon server.js",
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,8 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^7.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
