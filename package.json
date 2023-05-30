@@ -1,0 +1,19 @@
+{
+  "name": "shopit-backend",
+  "version": "1.0.0",
+  "description": "NodeJs backend for an e-commerce application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/miltonisaya/shopit-api.git"
+  },
+  "author": "Milton Isaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miltonisaya/shopit-api/issues"
+  },
+  "homepage": "https://github.com/miltonisaya/shopit-api#readme"
+}
